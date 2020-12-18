@@ -20,3 +20,4 @@ build-backend = "poetry.masonry.api"
 [tool.poetry.scripts]
 vowelbackness = "vowelspace.vowelbackness:main"
 vowelheight = "vowelspace.vowelheight:main"
+vowelpos = "vowelspace.vowelpos:main"

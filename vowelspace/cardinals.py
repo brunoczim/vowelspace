@@ -92,6 +92,9 @@ def make_backness_fn() -> Rbf:
     '''
     return make_rbf(to_backness_arrays(cardinals))
 
+max_height = 3
+max_backness = 2
+
 # Data for interpolation. Not only helps interpolation but also delimites
 # minimum and maximum.
 cardinals = [
