@@ -18,6 +18,7 @@ class Vowel(NamedTuple):
         '''
         Converts this vowel into a position on the trapezoid image.
         '''
+        
         trapezoid_height = bottom - top
         height_correct = trapezoid_height / max_height
         y_coord = top + height_correct * (max_height - self.height)
